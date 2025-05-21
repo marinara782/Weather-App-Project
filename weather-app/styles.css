@@ -33,3 +33,34 @@ main {
 h1 {
   margin-bottom: 20px;
 }
+
+#search {
+  border-radius: 5px 0 0 5px;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  width: 70%;
+  height: 42px;
+}
+
+#submit {
+  border-radius: 0 5px 5px 0;
+  padding: 10px;
+  font-size: 16px;
+  width: 5em;
+  cursor: pointer;
+}
+
+/*
+* Apply some CSS Flexbox to easily center-align the content in the app.
+* Turns weather-wrapper and search into flex containers.
+* Set the flex-direction to column.
+*/
+
+#weather-wrapper {
+  display: flex;
+}
+
+#weather-search {
+  display: flex;
+}
